@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Le langage de programmation d’Apple, servant à créer des apps pour iPhone, iPad, Mac, Apple Watch et Apple TV. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>À la découverte de la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Une valeur [transmise](glossary://pass) dans une fonction pour personnaliser son comportement.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utilisation d’une boucle</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Une collection qui stocke des valeurs du même type dans une liste ordonnée  
+- callout(Exemple):
+    `let items = [Item.cloth, Item.stone, Item.DNA]`</string>
+				<key>Title</key>
+				<string>tableau</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Une erreur dans le code qui empêche une application de s’exécuter comme elle devrait le faire. 
+</string>
+				<key>Title</key>
+				<string>bug</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Indiquer à un programme d’exécuter une fonction.</string>
+				<key>Title</key>
+				<string>appeler</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>L’action consistant à composer des commandes, des structures de code et des algorithmes de façon à créer une application informatique.
+</string>
+				<key>Title</key>
+				<string>codage</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Du code qui indique à une application d’effectuer une action spécifique. 
+</string>
+				<key>Title</key>
+				<string>commande</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trouver et corriger des erreurs dans le code qui empêchent une application de s’exécuter correctement. </string>
+				<key>Title</key>
+				<string>débogage</string>
+			</dict>
+		</dict>
+		<key>final product</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>À la découverte de la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un objet que l’on peut équiper, créé à partir du processus de [fusion](glossary://forge). Les produits finaux ne peuvent plus rien créer une fois passés dans la machine.</string>
+				<key>Title</key>
+				<string>produit final</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utilisation d’une boucle</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un bloc de code qui s’exécute un certain nombre de fois.
+- callout(Exemple):
+    ```
+    let items = [Item.cloth, Item.stone, Item.dirt]
+    
+    for item in items {
+        setItemA(.stone)
+        setItemB(item)
+        forgeItems()
+    }
+    ```
+                </string>
+				<key>Title</key>
+				<string>boucle for</string>
+			</dict>
+		</dict>
+		<key>forge</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>À la découverte de la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>L’opération consistant à fusionner deux éléments à l’aide de la machine.
+- callout(Exemple):
+    ```
+    setItemA(.metal)
+    setItemB(.cloth)
+    forgeItems()
+    ```</string>
+				<key>Title</key>
+				<string>fusion</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>À la découverte de la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un ensemble de commandes désigné qui peut être exécuté à tout moment en cas de besoin.</string>
+				<key>Title</key>
+				<string>fonction</string>
+			</dict>
+		</dict>
+		<key>item list</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Principaux : Métal (Metal), Pierre (Stone), Tissu (Cloth), Terre (Dirt), ADN (DNA)
+                    
+Secondaires : Ressort (Spring), Câble (Wire), Œuf (Egg), Arbre (Tree), Graine (Seed), Cristal (Crystal), Champignon (Mushroom), Forme de vie non identifiée (Unidentified life form)</string>
+				<key>Title</key>
+				<string>liste d’éléments</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>L’action consistant à répéter un processus, comme effectuer la même opération pour chaque élément d’un tableau.</string>
+				<key>Title</key>
+				<string>itération</string>
+			</dict>
+		</dict>
+		<key>light colors</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Couleurs des lumières: rouge, vert, bleu</string>
+				<key>Title</key>
+				<string>couleurs des lumières</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utilisation d’une boucle</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un bloc de code répété un certain nombre de fois.</string>
+				<key>Title</key>
+				<string>boucle</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/06.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Compléter la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Placer un bloc de code qui se répète (une boucle) à l’intérieur d’un autre bloc.</string>
+				<key>Title</key>
+				<string>imbriquer</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Le nom d’une valeur d’entrée pour une fonction, utilisée dans la définition de cette dernière. Par exemple, dans `move(distance: Int)`, `distance` est un paramètre qui prend une valeur de type Int.</string>
+				<key>Title</key>
+				<string>paramètre</string>
+			</dict>
+		</dict>
+		<key>pass</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>À la découverte de la machine</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Insertion d’une valeur en tant qu’[argument](glossary://argument) dans une fonction.</string>
+				<key>Title</key>
+				<string>transmettre</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

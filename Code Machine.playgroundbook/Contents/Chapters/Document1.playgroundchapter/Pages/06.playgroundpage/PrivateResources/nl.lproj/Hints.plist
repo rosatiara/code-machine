@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Aan jou de taak om de machine af te maken en ten minste één eindproduct te maken voor elk van de zes bevestigingspunten.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je kunt lussen [nesten](glossary://nest) door de ene lus binnen de andere te plaatsen. Door lussen te nesten kun je snel een groot aantal combinaties proberen!
+- callout(Voorbeeld):
+    ```
+    let items = [Item.stone, Item.cloth, Item.metal, Item.dirt, Item.DNA]
+    let colors = [Light.red, Light.green, Light.blue]
+
+    for item in items {
+        for color in colors {
+            setItemA(.DNA)
+            setItemB(item)
+            switchLightOn(color)
+            forgeItems()
+        }
+    }
+    ```
+
+(items = onderdelen, Item = onderdeel, stone = steen, cloth = stof, metal = metaal, dirt = aarde, colors = kleuren, Light = lampje, red = rood, green = groen, blue = blauw, colors = kleuren, setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, switchLightOn = schakel lampje in, forgeItems = voeg onderdelen samen)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

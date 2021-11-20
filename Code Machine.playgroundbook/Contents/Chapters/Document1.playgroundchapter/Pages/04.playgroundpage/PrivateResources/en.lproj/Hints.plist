@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+                <string>Each time the machine runs, it produces three items—one for each color in the `colors` [array](glossary://array).
+
+For each color in the array, the machine puts in the same two items and switches on that color light. This way, the loop combines the same two items using every color of light!</string>
+			</dict>
+		</dict>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Content</key>
+                <string>Your goal is to combine a seed and dirt in every color light to produce something new for the machine.
+
+- callout(Example):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+            </dict>
+        </dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

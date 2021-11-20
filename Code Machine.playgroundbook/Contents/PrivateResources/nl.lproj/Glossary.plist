@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De programmeertaal van Apple voor het schrijven van apps voor de iPhone, iPad, Mac, Apple Watch en Apple TV. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine verkennen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde die wordt [doorgegeven](glossary://pass) aan een functie om het gedrag van die functie aan te passen.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Een lus gebruiken</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een verzameling waarin waarden van hetzelfde type in een gerangschikte lijst worden bewaard.
+- callout(Voorbeeld):
+    `let items = [Item.cloth, Item.stone, Item.DNA]`
+
+(items = onderdelen, Item = onderdeel, cloth = stof, stone = steen)</string>
+				<key>Title</key>
+				<string>array</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een programmeerfout waardoor een app niet goed werkt. 
+</string>
+				<key>Title</key>
+				<string>bug</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een programma opdracht geven om een functie uit te voeren.</string>
+				<key>Title</key>
+				<string>aanroepen</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het samenstellen van commando's, codestructuren en algoritmen om een computerapp te maken.
+</string>
+				<key>Title</key>
+				<string>programmeren</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Code die een app opdracht geeft om een bepaalde bewerking uit te voeren. 
+</string>
+				<key>Title</key>
+				<string>commando</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het zoeken en corrigeren van programmeerfouten die ervoor zorgen dat een app niet goed werkt. </string>
+				<key>Title</key>
+				<string>debuggen</string>
+			</dict>
+		</dict>
+		<key>final product</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine verkennen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een onderdeel waaraan dingen kunnen worden toegevoegd en dat het resultaat is van het proces van [samenvoeging](glossary://forge). Uit eindproducten ontstaan geen andere onderdelen als ze worden teruggegeven aan de machine.</string>
+				<key>Title</key>
+				<string>eindproduct</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Een lus gebruiken</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code dat een bepaald aantal keren wordt uitgevoerd.
+- callout(Voorbeeld):
+    ```
+    let items = [Item.cloth, Item.stone, Item.dirt]
+    
+    for item in items {
+        setItemA(.stone)
+        setItemB(item)
+        forgeItems()
+    }
+    ```
+                
+
+(items = onderdelen, Item = onderdeel, cloth = stof, stone = steen, dirt = aarde, setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, forgeItems = voeg onderdelen samen)</string>
+				<key>Title</key>
+				<string>for-lus</string>
+			</dict>
+		</dict>
+		<key>forge</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine verkennen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het combineren van twee onderdelen met behulp van de machine.
+- callout(Voorbeeld):
+    ```
+    setItemA(.metal)
+    setItemB(.cloth)
+    forgeItems()
+    ```
+
+(setItemA = stel onderdeel A in, metal = metaal, setItemB = stel onderdeel B in, cloth = stof, forgeItems = voeg onderdelen samen)</string>
+				<key>Title</key>
+				<string>samenvoegen</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine verkennen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een benoemde set commando's die op elk gewenst moment kan worden uitgevoerd.</string>
+				<key>Title</key>
+				<string>functie</string>
+			</dict>
+		</dict>
+		<key>item list</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Primair: Metal, Stone, Cloth, Dirt, DNA
+                    
+Secundair: Spring, Wire, Egg, Tree, Seed, Crystal, Mushroom, Unidentified life form
+
+(metal = metaal, stone = steen, cloth = stof, dirt = aarde, spring = veer, wire = draad, egg = ei, tree = boom, seed = zaadje, crystal = kristal, mushroom = champignon, unidentified life form = onbekende levensvorm)</string>
+				<key>Title</key>
+				<string>onderdelenlijst</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het herhalen van een proces, zoals het uitvoeren van dezelfde bewerking voor elk onderdeel in een array.</string>
+				<key>Title</key>
+				<string>iteratie</string>
+			</dict>
+		</dict>
+		<key>light colors</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Lampkleuren: rood, groen, blauw</string>
+				<key>Title</key>
+				<string>lampkleuren</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Een lus gebruiken</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code dat een bepaald aantal keren wordt herhaald.</string>
+				<key>Title</key>
+				<string>lus</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/06.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine voltooien</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een herhaald blok code (of lus) invoegen in een ander herhaald blok code.</string>
+				<key>Title</key>
+				<string>nesten</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De naam van een invoerwaarde voor een functie die wordt gebruikt in de definitie van de functie. Bijvoorbeeld: in `move(distance: Int)` is `distance` een parameter die een waarde krijgt van het type Int.
+
+(move = verplaats, distance = afstand)</string>
+				<key>Title</key>
+				<string>parameter</string>
+			</dict>
+		</dict>
+		<key>pass</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>De machine verkennen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde als [argument](glossary://argument) in een functie invoegen.</string>
+				<key>Title</key>
+				<string>doorgeven</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

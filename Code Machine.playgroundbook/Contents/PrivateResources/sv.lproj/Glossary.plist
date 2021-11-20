@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apples programmeringsspråk som används till att skriva appar för iPhone, iPad, Mac, Apple Watch och Apple TV. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utforska maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett värde som [överförs](glossary://pass) till en funktion för att anpassa dess beteende.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Använda en loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En samling som lagrar värden av samma typ i en sorterad lista. 
+- callout(Exempel):
+    `let items = [Item.cloth, Item.stone, Item.DNA]`</string>
+				<key>Title</key>
+				<string>array</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett kodfel som förhindrar att ett program körs som förväntat. 
+</string>
+				<key>Title</key>
+				<string>bugg</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att säga åt ett program att köra en funktion.</string>
+				<key>Title</key>
+				<string>anrop</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att sammanställa kommandon, kodstrukturer och algoritmer för att skapa ett datorprogram.
+</string>
+				<key>Title</key>
+				<string>programmering</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kod som säger åt ett program att utföra en viss åtgärd. 
+</string>
+				<key>Title</key>
+				<string>kommando</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att hitta och fixa fel i kod som förhindrar att ett program körs som det ska. </string>
+				<key>Title</key>
+				<string>felsök</string>
+			</dict>
+		</dict>
+		<key>final product</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utforska maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett utrustningsbart objekt som skapas från processen [förening](glossary://forge). Slutprodukter skapar inte andra objekt när de överförs tillbaka till maskinen.</string>
+				<key>Title</key>
+				<string>slutprodukt</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Använda en loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett kodblock som körs ett visst antal gånger.
+- callout(Exempel):
+    ```
+    let items = [Item.cloth, Item.stone, Item.dirt]
+    
+    for item in items {
+        setItemA(.stone)
+        setItemB(item)
+        forgeItems()
+    }
+    ```
+                </string>
+				<key>Title</key>
+				<string>for-loop</string>
+			</dict>
+		</dict>
+		<key>forge</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utforska maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att kombinera två objekt med hjälp av maskinen.
+- callout(Exempel):
+    ```
+    setItemA(.metal)
+    setItemB(.cloth)
+    forgeItems()
+    ```</string>
+				<key>Title</key>
+				<string>förening</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utforska maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En namngiven uppsättning kommandon som kan köras vid behov.</string>
+				<key>Title</key>
+				<string>funktion</string>
+			</dict>
+		</dict>
+		<key>item list</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Primära: Metal, Stone, Cloth, Dirt, DNA
+                    
+Sekundära: Spring, Wire, Egg, Tree, Seed, Crystal, Mushroom, Unidentified life form</string>
+				<key>Title</key>
+				<string>objektlista</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att upprepa en process, exempelvis att utföra samma åtgärd på varje objekt i en array.</string>
+				<key>Title</key>
+				<string>iteration</string>
+			</dict>
+		</dict>
+		<key>light colors</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Lampfärger: rött, grönt, blått</string>
+				<key>Title</key>
+				<string>lampfärger</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Använda en loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett kodblock som upprepas ett visst antal gånger.</string>
+				<key>Title</key>
+				<string>loop</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/06.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Slutföra maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att placera ett upprepande kodblock (en loop) inuti ett annat.</string>
+				<key>Title</key>
+				<string>nästla</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Namnet på ett inmatningsvärde till en funktion som används i definitionen av funktionen. I exempelvis `move(distance: Int)` är `distance` en parameter som tar ett värde av typen Int.</string>
+				<key>Title</key>
+				<string>parameter</string>
+			</dict>
+		</dict>
+		<key>pass</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Utforska maskinen</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att infoga ett värde som ett [argument](glossary://argument) till en funktion.</string>
+				<key>Title</key>
+				<string>överföra</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

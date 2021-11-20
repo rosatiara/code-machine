@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Makine her çalıştığında `colors` [dizisindeki](glossary://array) her renk için üç öğe üretir.
+
+Makine, dizideki her renk için aynı iki öğeyi içine koyar ve o renk ışığı açar. Bu şekilde döngü, aynı iki öğeyi her bir ışık rengini kullanarak birleştirir!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Hedefin, bu makine için yeni bir şey üretmek amacıyla tohum (seed) ile toprağı (dirt) her renk ışık ile birleştirmek.
+
+- callout(Örnek):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

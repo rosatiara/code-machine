@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Jedes Mal, wenn die Maschine läuft, produziert sie drei Objekte – eines für jede Farbe im [Array](glossary://array) `colors`.
+
+Für jede Farbe im Array gibt die Maschine dieselben zwei Objekte ein und aktiviert das Licht dieser Farbe. Dadurch kombiniert die Schleife die beiden selben Objekte mit Licht jeder Farbe!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Dein Ziel ist es, Samen und Erde mit Licht in jeder Farbe zu kombinieren. Dadurch entsteht etwas Neues für die Maschine.
+
+- callout(Beispiel):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

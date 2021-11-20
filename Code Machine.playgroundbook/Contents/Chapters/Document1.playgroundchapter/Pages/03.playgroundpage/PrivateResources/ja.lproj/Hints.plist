@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`switchLightOn()`（ライトをオンにする）を使って、`.red`（赤）、`.green`（緑）、または`.blue`（青）を[指定](glossary://pass)して、ライトをオンにします。
+- callout(例):
+    `switchLightOn(.blue)`
+
+**高度なヒント**: 1つのライトをオンにすると、その他のライトがオフになります。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`setItemA()`（アイテムAをセット）にcrystal（クリスタル）を[指定](glossary://pass)して、別のアイテムと合体させて何か便利なものを作りましょう。
+- callout(例):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>crystal（クリスタル）と別のアイテムを合体させますが、合成する前にライトをblue（青）に変更してみてください。</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

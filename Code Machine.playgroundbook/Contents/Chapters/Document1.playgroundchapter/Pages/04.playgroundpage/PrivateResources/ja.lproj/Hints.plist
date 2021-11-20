@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>マシンで実行するたびに、`colors`（色）の[配列](glossary://array)に入っているそれぞれの色で1つずつ、合計3つのアイテムが生成されます。
+
+配列にあるそれぞれの色で、マシンは同じ2つのアイテムを入れて、その色のライトをオンにします。こうすることで、ループでは同じ2つのアイテムを、すべての色のライトと組み合わせて合体させることができますよ!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>目標は、seed（種）とdirt（土）をすべての色のライトと組み合わせて合体させて、マシンに何か新しいものを生成することです。
+
+- callout(例):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

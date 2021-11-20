@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Schakel een lampje in door `.red`, `.green` of `.blue` [door te geven](glossary://pass) aan `switchLightOn()`.
+- callout(Voorbeeld):
+    `switchLightOn(.blue)`
+
+**Tip voor pro's**: als je een lampje inschakelt, worden alle andere lampjes uitgeschakeld.
+
+(red = rood, green = groen, blue = blauw, switchLightOn = schakel lampje in)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je kunt het onderdeel 'crystal' [doorgeven](glossary://pass) aan `setItemA()` en het met een ander onderdeel combineren om iets nuttigs te maken.
+- callout(Voorbeeld):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```
+
+(crystal = kristal, setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, cloth = stof, switchLightOn = schakel lampje in, green = groen, forgeItems = voeg onderdelen samen)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Combineer het onderdeel 'crystal' met een ander onderdeel, maar schakel het blauwe lampje in voordat je ze samenvoegt.
+
+(crystal = kristal)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

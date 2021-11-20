@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>使用 `switchLightOn()` 将灯点亮，然后[传入](glossary://pass) `.red`（红色）、`.green`（绿色）或 `.blue`（蓝色）。
+- callout(示例):
+    `switchLightOn(.blue)`
+
+**专家提示**：点亮其中一种颜色的灯将关闭所有其他颜色的灯。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>给 `setItemA()` [传入](glossary://pass)一个 crystal（水晶），并将它与另一个物品进行合成，制造出点有用的东西。
+- callout(示例):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>将 crystal（水晶）与另一个物品进行合成，不过在锻造前，先尝试把灯的颜色改成蓝色。</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

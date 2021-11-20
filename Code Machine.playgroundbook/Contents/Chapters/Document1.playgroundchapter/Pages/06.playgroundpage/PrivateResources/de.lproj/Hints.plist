@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Dein Ziel ist es, die Maschine zu vervollständigen, indem du mindestens ein Endprodukt für jeden der sechs Befestigungspunkte erstellst.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Du kannst Schleifen [verschachteln](glossary://nest), indem du sie ineinander schreibst. Durch Verschachteln kannst du schnell viele Kombinationen ausprobieren!
+- callout(Beispiel):
+    ```
+    let items = [Item.stone, Item.cloth, Item.metal, Item.dirt, Item.DNA]
+    let colors = [Light.red, Light.green, Light.blue]
+
+    for item in items {
+        for color in colors {
+            setItemA(.DNA)
+            setItemB(item)
+            switchLightOn(color)
+            forgeItems()
+        }
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

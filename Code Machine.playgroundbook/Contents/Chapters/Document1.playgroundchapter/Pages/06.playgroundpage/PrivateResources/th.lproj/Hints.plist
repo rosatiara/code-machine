@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เป้าหมายของคุณคือการประกอบเครื่องจักรให้สมบูรณ์โดยการสร้างผลิตภัณฑ์ขั้นสุดท้ายอย่างน้อยหนึ่งชิ้นสำหรับจุดเชื่อมต่อทั้งหมดหกจุด</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>คุณสามารถ[ซ้อน](glossary://nest) loop ได้โดยใส่ซ้อนกันไว้ การซ้อน loop จะช่วยให้คุณลองการรวมกันหลายรายการได้อย่างรวดเร็ว!
+- callout(ตัวอย่าง):
+    ```
+    let items = [Item.stone, Item.cloth, Item.metal, Item.dirt, Item.DNA]
+    let colors = [Light.red, Light.green, Light.blue]
+
+    for item in items {
+        for color in colors {
+            setItemA(.DNA)
+            setItemB(item)
+            switchLightOn(color)
+            forgeItems()
+        }
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

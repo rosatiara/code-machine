@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Chaque fois que la machine est lancée, elle produit trois éléments, un pour chacune des couleurs du [tableau](glossary://array) `colors`.
+
+Pour chaque couleur du tableau, la machine traite les deux mêmes objets et allume la lumière correspondant à cette couleur. Ainsi, la boucle combine les deux mêmes éléments en utilisant des lumières de chaque couleur !</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Tu as pour objectif de combiner une graine (seed) et de la terre (dirt) sous chaque type de lumière, afin de produire un nouvel élément pour la machine.
+
+- callout(Exemple):
+    ```
+    pour une couleur dans des couleurs {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

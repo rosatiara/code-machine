@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`switchLightOn()`을 사용하여 불빛을 켠 다음 `.red`, `.green` 또는 `.blue` 값을 [전달](glossary://pass)해 보세요.
+- callout(예제):
+    `switchLightOn(.blue)`
+
+**프로 팁**: 불빛을 바꾸면 다른 불빛은 꺼집니다.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>crystal(크리스털)을 `setItemA()`에 [전달](glossary://pass)하고 다른 아이템과 조합하여 유용한 아이템을 만들어 보세요.
+- callout(예제):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>crystal(크리스털)을 다른 아이템과 조합해 보세요. 단 조합하기 전에 불빛을 파란색으로 바꾸는 것을 잊지 마세요.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

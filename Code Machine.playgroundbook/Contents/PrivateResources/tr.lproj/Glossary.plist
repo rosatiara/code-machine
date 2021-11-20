@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apple’ın iPhone, iPad, Mac, Apple Watch ve Apple TV için uygulama yazmak amacıyla kullanılan programlama dili. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Keşfetme</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Davranışını özelleştirmek için fonksiyona [geçirilen](glossary://pass) bir girdi değeri.</string>
+				<key>Title</key>
+				<string>argüman</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Döngü Kullanma</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sıralı bir listede aynı türdeki verileri saklar.
+- callout(Örnek):
+    `let items = [Item.cloth, Item.stone, Item.DNA]`</string>
+				<key>Title</key>
+				<string>dizi</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın beklendiği gibi çalışmasını engelleyen bir sorun. 
+</string>
+				<key>Title</key>
+				<string>hata</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir programa bir fonksiyonu çalıştırmasını söylemek.</string>
+				<key>Title</key>
+				<string>çağırma</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir bilgisayar uygulaması yaratmak için komutları, kod yapılarını ve algoritmaları birleştirme eylemi.
+</string>
+				<key>Title</key>
+				<string>kodlama</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamaya belirli bir eylemi gerçekleştirmesini söyleyen kod. 
+</string>
+				<key>Title</key>
+				<string>komut</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın doğru çalışmasını engelleyen hataları bulup düzeltmek. </string>
+				<key>Title</key>
+				<string>hata ayıklama</string>
+			</dict>
+		</dict>
+		<key>final product</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Keşfetme</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Birleştirme](glossary://forge) sürecinde yaratılan donatılabilir bir öğe. Son ürünler yeniden makineden geçirildiklerinde başka öğeler oluşmaz.</string>
+				<key>Title</key>
+				<string>son ürün</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Döngü Kullanma</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir sayıda çalıştırılacak kod öbeği.
+- callout(Örnek):
+    ```
+    let items = [Item.cloth, Item.stone, Item.dirt]
+    
+    for item in items {
+        setItemA(.stone)
+        setItemB(item)
+        forgeItems()
+    }
+    ```
+                </string>
+				<key>Title</key>
+				<string>for döngüsü</string>
+			</dict>
+		</dict>
+		<key>forge</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Keşfetme</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makineyi kullanarak iki öğeyi birleştirme eylemi.
+- callout(Örnek):
+    ```
+    setItemA(.spring)
+    setItemB(.metal)
+    forgeItems()
+    ```</string>
+				<key>Title</key>
+				<string>birleştirme</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Keşfetme</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gereksinim duyulduğunda çalıştırılabilen adlandırılmış komut kümesi.</string>
+				<key>Title</key>
+				<string>fonksiyon</string>
+			</dict>
+		</dict>
+		<key>item list</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Birincil: Metal (metal), Taş (stone), Kumaş (cloth), Toprak (dirt), DNA
+                    
+İkincil: Yay (spring), Kablo (wire), Yumurta (egg), Ağaç (tree), Tohum (seed), Kristal (crystal), Mantar (mushroom), Tanımlanamayan yaşam formu (unidentified life form)</string>
+				<key>Title</key>
+				<string>öğe listesi</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir işlemi yineleme eylemi (dizinin her bir öğesinde aynı eylemi gerçekleştirme gibi).</string>
+				<key>Title</key>
+				<string>tekrar</string>
+			</dict>
+		</dict>
+		<key>light colors</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Işık renkleri: kırmızı (red), yeşil (green), mavi (blue)</string>
+				<key>Title</key>
+				<string>ışık renkleri</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Döngü Kullanma</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir sayıda yinelenen kod öbeği.</string>
+				<key>Title</key>
+				<string>döngü</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/06.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Tamamlama</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yinelenen bir kod öbeğini (veya döngüyü) başka bir yinelenen kod öbeğinin içine yerleştirmek.</string>
+				<key>Title</key>
+				<string>iç içe yerleştirme</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fonksiyonun girdi değerinin, fonksiyonun tanımında kullanılan adı. Örneğin `move(distance: Int)` için `distance`, Int tipinde değer alan bir parametredir.</string>
+				<key>Title</key>
+				<string>parametre</string>
+			</dict>
+		</dict>
+		<key>pass</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Makineyi Keşfetme</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir fonksiyona bir [argüman](glossary://argument) olarak bir değer vermek.</string>
+				<key>Title</key>
+				<string>geçirme</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

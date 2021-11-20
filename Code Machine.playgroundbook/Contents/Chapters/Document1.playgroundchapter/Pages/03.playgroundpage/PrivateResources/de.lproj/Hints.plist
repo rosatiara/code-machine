@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Schalte ein Licht ein, indem du `switchLightOn()` verwendest und `.red`, `.green` oder `.blue` [übergibst](glossary://pass).
+- callout(Beispiel):
+    `switchLightOn(.blue)`
+
+**Profitipp**: Wenn du ein Licht einschaltest, werden alle anderen Lichter ausgeschaltet.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>[Übergib](glossary://pass) einen Kristall an `setItemA()` und kombiniere ihn mit einem anderen Objekt, um etwas Nützliches zu erstellen.
+- callout(Beispiel):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Kombiniere den Kristall mit einem anderen Objekt, aber ändere vor dem Schmieden das Licht auf Blau.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>แต่ละครั้งที่เปิดใช้งานเครื่องยนต์ เครื่องยนต์จะทำงานสามครั้ง หนึ่งครั้งต่อหนึ่งสีใน[อาร์เรย์](glossary://array) `colors`
+
+เครื่องยนต์จะใส่สองรายการที่เหมือนกันลงไปในแต่ละสีในอาร์เรย์ แล้วปิดแสงสีนั้น ด้วยเหตุนี้ลูปจึงรวมรายการสองรายการที่เหมือนกันโดยใช้แสงทุกสี!</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เป้าหมายของคุณคือรวบรวมเมล็ดพันธุ์และดินของแสงทุกสีเพื่อผลิตสิ่งใหม่จากเครื่องจักร
+
+- callout(ตัวอย่าง):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ภาษาโปรแกรมของ Apple ที่ใช้เขียนแอพสำหรับ iPhone, iPad, Mac, Apple Watch และ Apple TV </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การสำรวจเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าที่[ส่งผ่าน](glossary://pass)ไปที่ฟังก์ชั่นเพื่อปรับแต่งลักษณะการกระทำด้วยตัวเอง</string>
+				<key>Title</key>
+				<string>อาร์กิวเมนต์</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การใช้ Loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอลเลกชั่นที่จัดเก็บค่าของประเภทเดียวกันในลิสต์แบบจัดลำดับ 
+- callout(ตัวอย่าง):
+    `let items = [Item.cloth, Item.stone, Item.DNA]`</string>
+				<key>Title</key>
+				<string>อาร์เรย์</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อผิดพลาดในโค้ดที่ป้องกันไม่ให้แอพพลิเคชั่นทำงานตามที่คาดไว้ 
+</string>
+				<key>Title</key>
+				<string>บั๊ก</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สั่งให้โปรแกรมรันฟังก์ชั่น</string>
+				<key>Title</key>
+				<string>เรียกใช้</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การเขียนคำสั่ง โครงสร้างโค้ด และอัลกอริทึมเพื่อสร้างแอพพลิเคชั่นคอมพิวเตอร์
+</string>
+				<key>Title</key>
+				<string>การเขียนโค้ด</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โค้ดที่แจ้งให้แอพพลิเคชั่นดำเนินการทำงานบางอย่าง 
+</string>
+				<key>Title</key>
+				<string>คำสั่ง</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค้นหาและแก้ไขข้อผิดพลาดในโค้ดที่ป้องกันไม่ให้แอพพลิเคชั่นทำงานอย่างถูกต้อง </string>
+				<key>Title</key>
+				<string>แก้บั๊ก</string>
+			</dict>
+		</dict>
+		<key>final product</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การสำรวจเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>รายการที่ใช้ได้ซึ่งสร้างจากกระบวน[การหลอม](glossary://forge) ผลิตภัณฑ์ที่ได้จะไม่สร้างรายการอื่นๆ เมื่อส่งผ่านกลับไปที่เครื่องจักร</string>
+				<key>Title</key>
+				<string>ผลิตภัณฑ์ขั้นสุดท้าย</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การใช้ Loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่รันตามจำนวนครั้งที่เฉพาะเจาะจง
+- callout(ตัวอย่าง):
+    ```
+    let items = [Item.cloth, Item.stone, Item.dirt]
+    
+    for item in items {
+        setItemA(.stone)
+        setItemB(item)
+        forgeItems()
+    }
+    ```
+                </string>
+				<key>Title</key>
+				<string>for loop</string>
+			</dict>
+		</dict>
+		<key>forge</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การสำรวจเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การรวมรายการสองรายการโดยใช้เครื่องจักร
+- callout(ตัวอย่าง):
+    ```
+    setItemA(.metal)
+    setItemB(.cloth)
+    forgeItems()
+    ```</string>
+				<key>Title</key>
+				<string>การหลอม</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การสำรวจเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชุดคำสั่งที่มีชื่อซึ่งสามารถรันได้ในเวลาที่ต้องการ</string>
+				<key>Title</key>
+				<string>ฟังก์ชั่น</string>
+			</dict>
+		</dict>
+		<key>item list</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ขั้นแรก: โลหะ หิน ผ้า ดิน DNA
+                    
+ขั้นที่สอง: สปริง ขดลวด ไข่ ต้นไม้ เมล็ดพันธุ์ คริสตัล เห็ด รูปแบบชีวิตที่ไม่ระบุ</string>
+				<key>Title</key>
+				<string>ลิสต์รายการ</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การทำขั้นตอนซ้ำ เช่น การดำเนินการการทำงานเดียวกันบนรายการแต่ละรายการในอาร์เรย์</string>
+				<key>Title</key>
+				<string>การทำซ้ำ</string>
+			</dict>
+		</dict>
+		<key>light colors</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สีแสง: แดง เขียว น้ำเงิน</string>
+				<key>Title</key>
+				<string>สีแสง</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/04.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การใช้ Loop</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่มีการเรียกใช้ซ้ำตามจำนวนครั้งที่กำหนด</string>
+				<key>Title</key>
+				<string>loop</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/06.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การประกอบเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วางบล็อกของโค้ด (หรือ loop) ที่ทำซ้ำรายการหนึ่งภายในอีกรายการหนึ่ง</string>
+				<key>Title</key>
+				<string>ซ้อน</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชื่อของค่า input ของฟังก์ชั่นที่ใช้ในการกำหนดฟังก์ชั่น ตัวอย่างเช่น ใน `move(distance: Int)` นั้น `distance` เป็นพารามิเตอร์ที่ใช้ค่าประเภท Int</string>
+				<key>Title</key>
+				<string>พารามิเตอร์</string>
+			</dict>
+		</dict>
+		<key>pass</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>การสำรวจเครื่องจักร</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แทรกค่าเป็น[อาร์กิวเมนต์](glossary://argument)ไปยังฟังก์ชั่น</string>
+				<key>Title</key>
+				<string>ส่งผ่าน</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

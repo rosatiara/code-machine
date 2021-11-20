@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>你的目標是為機器的六個連接點，製作至少一項最後產品來完成機器。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>你可以將一個迴圈放入另一個迴圈，藉此方式來[嵌套](glossary://nest)迴圈。嵌套迴圈能讓你快速地嘗試許多不同的組合！
+- callout(範例):
+    ```
+    let items = [Item.stone, Item.cloth, Item.metal, Item.dirt, Item.DNA]
+    let colors = [Light.red, Light.green, Light.blue]
+
+    for item in items {
+        for color in colors {
+            setItemA(.DNA)
+            setItemB(item)
+            switchLightOn(color)
+            forgeItems()
+        }
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

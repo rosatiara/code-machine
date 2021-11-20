@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0103">
+    <steps>
+        
+        <step type="code" name="loop">
+            <assessment type="programmatic"/>
+            <blocks>
+                <block type="title">
+                    <title id="b5I-m2-tRV">Using a Loop</title>
+                    <text id="QpD-1G-vRr">The machine is getting impatient! It needs you to create parts more quickly.</text>
+                </block>
+                <block type="text">
+                    <text id="QpD-1G-lor">Use a <a href="glossary://for%20loop">for loop</a> and an <a href="glossary://array">array</a> to try many different combinations in a row.</text>
+                </block>
+                <block type="carrot" subtype="tryit"/>
+                <block type="text">
+                    <text id="zIa-it-d5H">Run your code to see how the loop calls the different colors from the array.</text>
+                </block>
+        </blocks>
+    </step>
+     <message name="loop-success" sender="byte">
+          <blocks>
+              <block type="text">
+                  <text id="t3H-6C-tn8"><b>Loop-de-doop!</b></text>
+              </block>
+             <block type="text">
+                 <text id="ENU-K9-qtx">Did you notice? Each time the machine runs, it produces three items, one for each color in the <a href="glossary://array">array</a>.</text>
+             </block>
+             <block type="text">
+                 <text id="947-Xz-Eh5">For each color in the array, the machine puts in the same two items and switches on that color light. This way, the loop combines the same two items using every color of light!</text>
+             </block>
+             <block type="text">
+                 <text id="6vq-mi-Iv4">Try modifying the code inside the loop to find new parts for the machine quickly.</text>
+             </block>
+             <block type="text">
+                    <text id="7RV-3u-9Im">Next, try looping through an array.</text>
+             </block>
+             <block type="buttons" alignment="trailing">
+                 <button href="@nextStep" symbol="arrow.right.circle.fill">
+                     <text id="379-Gr-WqK">Next</text>
+                 </button>
+             </block>
+          </blocks>
+      </message>
+     
+
+   
+     
+     <step type="code" name="array">
+         <assessment type="programmatic" badge="true"/>
+         <blocks>
+           <block type="title" subtype="badge">
+               <title id="TMe-R4-Azk">Items Array</title>
+               <text id="bv2-8K-QVw">Instead of light colors, loop through all of the items!</text>
+           </block>
+               <block type="carrot" subtype="code"/>
+               <block type="text">
+                   <text id="cJq-7s-mPP"><b>Step 1:</b>
+                       Make an array with all of the items <i>above</i> the for loop.</text>
+               </block>
+               <block type="code"><key>let</key> items = [Item.metal, Item.stone, Item.cloth, Item.dirt, Item.DNA, Item.spring, Item.wire, Item.egg, Item.tree, Item.gear, Item.seed, Item.crystal, Item.mushroom, Item.unidentifiedLifeForm]
+                   </block>
+               <block type="text">
+                   <text id="E7J-Kq-3hU"><b>Step 2:</b>
+                   Modify the <a href="glossary://for%20loop">for loop</a> to loop through the array of items.
+                   
+                   Example: <code><key>for</key> item <key>in</key> items</code></text>
+               </block>
+                 <block type="text">
+                   <text id="fEI-DbS"><b>Step 3:</b>
+                   Pass in <cv>item</cv> as the <a href="glossary://argument">argument</a> in the <cv>setItemA</cv> function and change the argument in <cv>switchLightOn</cv> to one of the colors.</text>
+               </block>
+                 <block type="carrot" subtype="play"/>
+                 <block type="text">
+                     <text id="zIa-tt-d5H">Run your code to try out your new loop.</text>
+                 </block>
+       </blocks>
+    </step>
+    
+        <message name="array-hint2" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="GZm-uK-AWh">Nearly there! The code in your loop should look something like this:</text>
+                </block>
+                <block type="code"><key>for</key> item <key>in</key> items {
+                    setItemA(item)
+                    setItemB(.dirt)
+                    switchLightOn(.green)
+                    forgeItems()
+                }</block>
+            </blocks>
+        </message>
+        
+        <message name="array-hint1" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="aqe-khl-cjh">First, create an array of items that you want to loop through.</text>
+                </block>
+                <block type="code"><key>let</key> items = [Item.metal, Item.stone, Item.cloth, Item.dirt, Item.DNA, Item.spring, Item.wire, Item.egg, Item.tree, Item.gear, Item.seed, Item.crystal, Item.mushroom, Item.unidentifiedLifeForm]
+                </block>
+            </blocks>
+        </message>
+        
+        <message name="array-success" sender="byte">
+              <blocks>
+                  <block type="text">
+                         <text id="gBU-S9-dvy"><b>Gadzooks!</b></text>
+                     </block>
+                     <block type="text">
+                         <text id="zvt-dr-YKR">Aren’t <a href="glossary://array">arrays</a> great?! By storing items in an array, you can loop through the options far faster than trying each one individually.</text>
+                     </block>
+                     <block type="text">
+                      <text id="7HD-4A-Un1">Next, forge all the things!</text>
+                  </block>
+                     <block type="buttons" alignment="trailing">
+                         <button href="@next" symbol="arrow.right.circle.fill">
+                             <text id="fzQ-8d-SPz">Next</text>
+                         </button>
+                     </block>
+              </blocks>
+          </message>
+     
+     
+    </steps>
+</trail>

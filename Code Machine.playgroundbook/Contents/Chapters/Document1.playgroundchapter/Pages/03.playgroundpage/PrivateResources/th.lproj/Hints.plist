@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เปิดไฟโดยใช้ `switchLightOn()` แล้ว[ส่งผ่าน](glossary://pass) เป็น `.red` `.green` หรือ `.blue`
+- callout(ตัวอย่าง):
+    `switchLightOn(.blue)`
+
+**เคล็ดลับขั้นเทพ**: การเปิดสวิตช์ไฟสีหนึ่งจะปิดไฟสีอื่นๆ ด้วย</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>[ส่งผ่าน](glossary://pass)คริสตัลไปที่ `setItemA()` แล้วรวมกับรายการอื่นเพื่อสร้างสิ่งที่มีประโยชน์
+- callout(ตัวอย่าง):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ผสาน crystal (คริสตัล) กับวัตถุอื่น แต่ลองเปลี่ยนไฟเป็นสีน้ำเงินก่อนที่คุณจะหลอมวัตถุ</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

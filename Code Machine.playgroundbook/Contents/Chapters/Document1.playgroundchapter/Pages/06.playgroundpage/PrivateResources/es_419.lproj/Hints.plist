@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Tu objetivo es completar la máquina al crear al menos un producto final para cada uno de sus seis puntos de inserción.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Puedes [anidar](glossary://nest) ciclos colocando uno dentro de otro. Los ciclos anidados te permiten probar muchas combinaciones rápidamente.
+- callout(Ejemplo):
+    ```
+    let items = [Item.stone, Item.cloth, Item.metal, Item.dirt, Item.DNA]
+    let colors = [Light.red, Light.green, Light.blue]
+
+    for item in items {
+        for color in colors {
+            setItemA(.DNA)
+            setItemB(item)
+            switchLightOn(color)
+            forgeItems()
+        }
+    }
+    ```</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

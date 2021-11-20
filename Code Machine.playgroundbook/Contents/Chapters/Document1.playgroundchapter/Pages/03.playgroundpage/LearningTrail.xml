@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0102">
+    <steps>
+        
+        <step type="code" name="combiningColors">
+            <assessment type="programmatic"/>
+            <blocks>
+                <block type="title">
+                    <title id="KYZ-u5-CeF">Combining with Colors</title>
+                    <text id="W2Z-i8-V34">The machine has three shiny buttons colored <b>red</b>, <b>green</b>, and <b>blue</b>. Each light has special abilities, giving you the power to forge new items and equipment!</text>
+                </block>
+                <block type="image" source="Page2-CombiningWithColors.pdf">
+                    <description id="pJN-Hd-5X8">Picture of the three lights, red, green, and blue.</description>
+                     <interactive name="spaceCamera">
+                        <hotspot position="0.17, 0.5" action="popupText" carat="right"><text id="grc-Ic-sMG"><b>Red Light:</b> Heats items. Good for making mechanical objects.</text></hotspot>
+                        <hotspot position="0.5, 0.5" action="popupText" carat="left"><text id="9fh-UC-HMc"><b>Green Light:</b> Gives life. Good for making living things.</text></hotspot>
+                        <hotspot position="0.83, 0.5" action="popupText" carat="left"><text id="9fh-UC-HUc"><b>Blue Light:</b> Cools and transforms items. Good for making clothing.</text></hotspot>
+                    </interactive>
+                </block>
+                
+                <block type="text">
+                    <text id="LzU-KX-9vT">To switch one of the lights on, use the <cv>switchLightOn</cv> function and pass in an <a href="glossary://argument">argument</a> for the color you’d like.</text>
+                </block>
+                 <block type="text">
+                     <code>switchLightOn(.red)</code>
+                </block>
+                 <block type="carrot" subtype="play"/>
+                <block type="text">
+                 <text id="h6D-vq-SVd">Try it out! Run your code to create a crystal.</text>
+               </block>
+                <groupblock disclosed="false">
+                    <title id="Mku-L4-Wqg">Pro Tip</title>
+                    <image character="expert"/>
+                    <block type="text">
+                      <text id="hfC-Kn-wvv"> Switching on a light switches off all of the other lights.</text>
+                    </block>
+                </groupblock>
+        </blocks>
+    </step>
+        <message name="combiningColors-success" sender="byte">
+            <blocks>
+                <block type="text">
+                      <text id="dyY-XE-fdQ"><b>You’re so bright!</b></text>
+                </block>
+                <block type="text">
+                    <text id="ZGg-Cd-IJH">You made a crystal!</text>
+                </block>
+                <block type="image" source="crystal">
+                    <description id="A1d-Az-Au4">A purple crystal.</description>
+                </block>
+                <block type="text">
+                       <text id="9ag-pC-87h">Next, try a few challenges using light.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="NAP-Wg-sRH">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+       <message name="combiningColors-hint" sender="hopper">
+                  <blocks>
+                      <block type="text">
+                          <text id="52M-81-QMW">To make a crystal, keep all the inputs just the way you found them:</text>
+                      </block>
+                      <block type="text"><text id="zss-GJ-msH"><code>
+                          setItemA(.stone)
+                          setItemB(.stone)
+                          switchLightOn(.red)
+                          forgeItems()</code></text>
+                      </block>
+                      <block type="text">
+                          <text id="Wj8-5B-Sku">Then run your code!</text>
+                      </block>
+                  </blocks>
+              </message>
+        
+     
+     <step type="code" name="newArms">
+         <assessment type="programmatic" badge="true"/>
+       <blocks>
+           <block type="title" subtype="badge">
+               <title id="URk-w4-G5y">New Arms</title>
+           </block>
+           <block type="carrot" subtype="code"/>
+              <block type="text">
+                 <text id="mju-c6-jin">The machine could use an arm or two. See if you can combine <cv>crystal</cv> with another item and color to create one!</text>
+               </block>
+              <block type="image" source="Page2-NewArms" height="0.45">
+                  <description id="AMB-kG-XKG">Image showing all of the arms you can make for the machine. The spiraling stalactites, octopus tentacle, and flowy rainbow ribbon are colored in showing that those are ones you could create on this page, although all of the options are possible.</description>
+                </block>
+              <block type="carrot" subtype="play"/>
+              <block type="text">
+                  <text id="7y9-kz-p6w">Combine <cv>crystal</cv> with other inputs and light colors to try and forge an arm.</text>
+               </block>
+       </blocks>
+    </step>
+     
+     <message name="newArms-hint" sender="hopper">
+        <blocks>
+            <block type="text">
+              <text id="etx-gM-XqL">There’s a rumor that <cv>crystal</cv> responds well to blue and green light, and can combine with <cv>DNA</cv> or <cv>cloth</cv>.</text>
+            </block>
+        </blocks>
+    </message>
+    
+    <message name="newArms-hint2" sender="hopper">
+        <blocks>
+            <block type="text">
+              <text id="etx-gM-kjeyqasc">Make sure to set one of your items to be a <cv>crystal</cv>, and try different options for the other. Try using blue or green light.</text>
+            </block>
+             <block type="text"><text id="zss-GJ-ccbbawo"><code>
+                          setItemA(.crystal)
+                          setItemB(.dirt)
+                          switchLightOn(.blue)
+                          forgeItems()</code></text>
+                      </block>
+        </blocks>
+    </message>
+    
+     <message name="newArms-success" sender="byte">
+         <blocks>
+            <block type="text">
+                   <text id="ywz-nE-RBw"><b>What cool armor!</b></text>
+             </block>
+             <block type="text">
+                 <text id="UyJ-DC-LhT">You’re ahead of the game! You’ve forged all of the final products you need at this point.</text>
+             </block>
+             <block type="text">
+                 <text id="FFR-V9-rUQ">Next, see if you can make something grow.</text>
+             </block>
+             <block type="buttons" alignment="trailing">
+                 <button href="@nextStep" symbol="arrow.right.circle.fill">
+                     <text id="Vug-7x-v9B">Next</text>
+                 </button>
+             </block>
+         </blocks>
+     </message>
+     
+ 
+     <step type="code" name="grow">
+        <assessment type="programmatic" badge="true"/>
+               <blocks>
+                   <block type="title" subtype="badge">
+                       <title id="dDu-qN-sr7">Make Things Grow</title>
+                       <text id="LvZ-DH-123">Produce something new for the machine.</text>
+                   </block>
+                   <block type="carrot" subtype="code"/>
+                   <block type="text">
+                      <text id="LvZ-DH-Nf8">Gardeners would agree that <cv>seed</cv> and <cv>dirt</cv> in a certain light can make things grow!</text>
+                  </block>
+                  <block type = "image" source="Page3-Challenges.pdf">
+                        <description id="gE7-4N-c1n">Image of a forest that signifies what you can forge in this challenge.</description>
+                    </block>
+                  <block type="carrot" subtype="play"/>
+                  <block type="text">
+                      <text id="cx5-AK-xMh">Combine <cv>dirt</cv>, <cv>seed</cv> and a certain color light and run your code.</text>
+                   </block>
+           </blocks>
+       </step>
+     
+     
+     
+     
+     
+        
+     <message name="grow-hint2" sender="hopper">
+         <blocks>
+             <block type="text">
+                 <text id="cuI-Zc-XDB">Pick a light that will make something grow.</text>
+             </block>
+         </blocks>
+     </message>
+     
+     <message name="grow-hint1" sender="hopper">
+         <blocks>
+             <block type="text">
+                 <text id="cuI-ca-awe">Remember to pass in a seed and dirt into the machine.</text>
+             </block>
+             <block type="text">
+                 <text id="aqw-zsw-ahduwe"><code>setItemA(.seed)
+                     setItemB(.dirt)
+                 </code></text>
+             </block>
+         </blocks>
+     </message>
+     
+      <message name="grow-success" sender="byte">
+          <blocks>
+             <block type="text">
+                   <text id="XjU-Bd-KAL"><b>You’re quick!</b></text>
+                 </block>
+                  <block type="text">
+                   <text id="wes-wea-awea">The machine can barely keep up with your abilities. Seems that you’ve forged all that you need for now. Stick around to create more on this page, or move on to learn some advanced ways to use the machine.</text>
+                 </block>
+                 
+             <block type="text">
+                    <text id="Y8X-iy-SbR">Next, make parts faster using a loop.</text>
+                 </block>
+             <block type="buttons" alignment="trailing">
+                 <button href="@next" symbol="arrow.right.circle.fill">
+                     <text id="K6W-Jv-cVC">Next</text>
+                 </button>
+             </block>
+          </blocks>
+      </message>
+     
+    </steps>
+</trail>

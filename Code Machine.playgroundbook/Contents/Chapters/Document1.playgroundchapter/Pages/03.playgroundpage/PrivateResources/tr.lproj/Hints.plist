@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`switchLightOn()` kullanarak ve `.red`, `.green` veya `.blue` argümanlarını [geçirerek](glossary://pass) ışıklardan birini yak.
+- callout(Örnek):
+    `switchLightOn(.blue)`
+
+**Pro ipucu**: Bir ışığı açmak diğer ışıkları kapatır.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`setItemA()` fonksiyonuna bir kristal (crystal) [geçir](glossary://pass) ve yararlı bir şey oluşturmak için onu başka bir öğeyle birleştir.
+- callout(Örnek):
+    ```
+    setItemA(.crystal)
+    setItemB(.cloth)
+    switchLightOn(.green)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Kristal (crystal) ile başka bir öğeyi birleştir ama önce ışığı mavi (blue) ile değiştirmeyi dene.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

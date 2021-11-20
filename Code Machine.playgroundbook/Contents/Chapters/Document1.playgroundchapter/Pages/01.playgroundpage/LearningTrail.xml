@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0101">
+    <steps>
+     
+        
+         <step type="context" name="firstRun">
+             <assessment type="programmatic"/>
+                <blocks>
+                    <block type="title">
+                        <title id="9mF-vB-YNx">Code Machine</title>
+                        <text id="76e-mE-PME">You’ve discovered a mysterious glowing machine. But wait, it looks like it’s missing some parts!</text>
+                    </block>
+                    <block type = "image" source="Page1-CodeMachine_hero.pdf" height="0.65">
+                        <description id="Qhs-YP-vjn">Preview of Code Machine without anything attached to it, no arms, legs, skirts, eyes, hats, nothing!</description>
+                    </block>
+                    <block type="carrot" subtype="play"/>
+                    <block type="text">
+                        <text id="kYj-7f-Cw9">Run your code and see how the machine behaves.</text>
+                    </block>
+                   
+            </blocks>
+        </step>
+         
+         <message name="firstRun-success" sender="byte">
+               <blocks>
+                   <block type="text">
+                       <text id="kdkdk55dkdkdkd"><b>How exciting!</b></text>
+                   </block>
+                   <block type="text">
+                        <text id="SCh-Xk-DQj">Notice how the machine takes two items and shoots out a new one? Up next, you’ll learn how that works!</text>
+                   </block>
+                   <block type="buttons" alignment="trailing">
+                       <button href="@nextStep" symbol="arrow.right.circle.fill">
+                           <text id="BrV-JF-ijQ">Next</text>
+                       </button>
+                   </block>
+               </blocks>
+           </message>
+        
+        
+    <step type="context">
+        <blocks>
+            <block type="title">
+                <title id="eTs-Q7-PXt">Inputs and Outputs</title>
+            </block>
+            <block type="text">
+                <text id="AIi-rw-qyq">To make new parts for the machine, you can add items (inputs) into the machine and it <a href="glossary://forge">forges</a> together new items (outputs).</text>
+            </block>
+             <block type="text">
+                <text id="fDZ-ju-xSZ">This process is similar to what devices do with code.</text>
+            </block>
+            <block type = "image" source="Page1-InputsAndOutputs" height="0.75">
+                <description id="8B4-tE-t7Z">Picture of the code machine getting items (inputs) and forging them into final products, such as legs, arms, hats, and other items.</description>
+            </block>
+            <groupblock disclosed="false">
+               <title id="ReK-yA-HH2">Want to learn a little about functions?</title>
+               <image character="expert"/>
+               <block type="text">
+                   <text id="NQc-hI-Gnn">Each command you send to the machine is known as a <a href="glossary://function">function</a>. A function tells the machine to do a specific task.</text>
+                </block>
+                <block type="text">
+                   <text id="eBX-Qv-vB4">Some functions, like <cv>setItemA</cv>, take an <a href="glossary://argument">argument</a> that customizes how it works. You can <a href="glossary://pass">pass</a> in different arguments to change what the machine creates.</text>
+                </block>
+                <block type="text"><code>setItemA(.stone)</code></block>
+                <block type="text">
+                   <text id="cAw-6T-MBx">In the example above, <cv>stone</cv> is the argument in the <cv>setItemA</cv> function.</text>
+                </block>
+                
+            </groupblock>
+            <block type="text">
+                 <text id="mnexteee">Next, try your first challenge!</text>
+         </block>
+            <block type="buttons" alignment="trailing">
+                <button href="@nextStep" symbol="arrow.right.circle.fill">
+                    <text id="kpy-PH-Cip">Next</text>
+                </button>
+            </block>
+        </blocks>
+    </step>
+  
+        
+    <step type="code" name="newEyes">
+        <blocks>
+            <assessment type="programmatic" badge="true"/>
+            <block type="title" subtype="badge">
+                <title id="t9t-kY-hMk">New Eyes</title>
+            </block>
+            <block type = "image" source="Page1-Challenge1-NewEyes.pdf">
+                 <description id="q2b-pe-a4S">Equation showing that DNA, plus an unknown item results in a pair of eyes.</description>
+            </block>
+            <block type="carrot" subtype="code"/>
+             <block type="text">
+                <text id="3hE-jt-gq4">In the code, press <cv>metal</cv> or <cv>cloth</cv> to replace it with other items, such as <cv>dirt</cv>, <cv>DNA</cv>, or <cv>stone</cv>.</text>
+            </block>
+            <groupblock disclosed="false">
+               <title id="ReK-yA-caqqwa">Need Help?</title>
+               <image character="hopper"/>
+               <block type="text">
+                   <text id="NQc-hI-aslkje">Use the machine to <a href="glossary://forge">forge</a> new items! All you need to do is set your inputs with <cv>setItemA</cv> and <cv>setItemB</cv>, then use <cv>forgeItems</cv> to combine them.</text>
+                </block>
+                <block type="text"><code>setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()</code></block>
+            </groupblock>
+             <block type="carrot" subtype="play"/>
+             <block type="text">
+                <text id="nUy-QQ-3JN">The machine could use a new set of eyes. Could you combine DNA with some other item to make a pair?</text>
+            </block>
+             
+        </blocks>
+    </step>
+    
+    <message name="newEyes-hint" sender="hopper">
+       <blocks>
+           <block type="text">
+               <text id="DUY-WU-Ha3">The machine needs new eyeballs. Can you help? Try combining DNA with another item and see what the machine creates.</text>
+           </block>
+       </blocks>
+   </message>
+   
+   <message name="newEyes-hint2" sender="hopper">
+       <blocks>
+           <block type="text">
+               <text id="DUY-WU-yxohq">The machine might need some metal in those eyeballs, as well.</text>
+           </block>
+       </blocks>
+   </message>
+    
+   <message name="newEyes-success" sender="byte">
+       <blocks>
+           <block type="text">
+                 <text id="2HE-yT-y1h"><b>Whoa! You created cyborg eyeballs!</b></text>
+           </block>
+           <block type="text">
+                 <text id="6qT-Pi-H49">You forged together DNA and metal, bringing the metal to life with the power of genetic material. Seems a bit silly, but maybe this machine has its own set of rules that you can try to figure out.</text>
+           </block>
+           <block type="text">
+                   <text id="mB9-iN-jpU">Next, try another challenge!</text>
+           </block>
+           <block type="buttons" alignment="trailing">
+               <button href="@nextStep" symbol="arrow.right.circle.fill">
+                   <text id="jhS-XC-Yt7">Next</text>
+               </button>
+           </block>
+       </blocks>
+   </message>
+        
+    <step type="code" name="somethingStylish">
+        <blocks>
+            <assessment type="programmatic" badge="true"/>
+            <block type="title" subtype="badge">
+                <title id="V37-EY-4Dn">Something Stylish</title>
+                <text id="K8h-uT-57a">Now that you know what the machine does, you’re ready to explore how to control it with code.</text>
+            </block>
+             <block type = "image" source="Page1-Challenge2-SomethingUseful">
+                 <description id="yMS-Vd-bjT">Equation showing that a spring plus another unknown item results in some sort of hat.</description>
+            </block>
+              <block type="carrot" subtype="code"/>
+            <block type="text">
+              <text id="9Ed-v4-9nv"><a href="glossary://pass">Pass</a> in <cv>spring</cv> to the <cv>setItemA</cv> function.</text>
+            </block>
+            <block type="carrot" subtype="play"/>
+            <block type="text">
+                <text id="Cjafeijfaowiefo">Run your code and try combining the spring with other items until you make a <a href="glossary://final%20product">final product</a> for the machine.</text>
+            </block>
+        </blocks>
+    </step>
+    
+    <message name="somethingStylish-success2" sender="hopper">
+             <blocks>
+             <block type="text">
+                     <text id="7gu-eL-ZnakwehM"><b>You’re ahead of the game!</b></text>
+                 </block>
+                 <block type="text">
+                   <text id="1zz-dt-aseqqqa">You’ve already forged the <a href="glossary://final%20product">final product</a> you need here. You can move on or continue to experiment. Your choice!</text>
+                 </block>
+             </blocks>
+         </message>
+    
+          <message name="somethingStylish-hint2" sender="hopper">
+             <blocks>
+                 <block type="text">
+                   <text id="1zz-dt-LTx">You could combine the spring with <b>something soft</b> to make a strange hat of sorts.</text>
+                 </block>
+             </blocks>
+         </message>
+          
+          <message name="somethingStylish-hint1" sender="hopper">
+             <blocks>
+                 <block type="text">
+                   <text id="32d-dt-zqszz">Make sure to pass in the spring as one of your items!</text>
+                 </block>
+                 <block type="text">
+                   <text id="sa2-dt-qwesai"><code>setItemA(.spring)</code></text>
+                 </block>
+             </blocks>
+         </message>
+          
+         <message name="somethingStylish-success" sender="byte">
+             <blocks>
+                 <block type="text">
+                     <text id="7gu-eL-ZhM"><b>Woo-hoo! New equipment!</b></text>
+                 </block>
+                 <block type="text">
+                   <text id="V53-tn-bi2">Can you think of a reason why the machine created what it did?</text>
+                 </block>
+                 <block type="text">
+                   <text id="DV9-CI-bmX">If you want to keep track of your new stuff, touch the equipment button. Then touch any piece of equipment you’ve already found to get the recipe of items.</text>
+                 </block>
+                 <block type="text">
+                     <text id="rLg-W1-Ffd">Next, use colored lights to create more equipment.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@next" symbol="arrow.right.circle.fill">
+                         <text id="4FF-n3-Tza">Next</text>
+                     </button>
+                 </block>
+             </blocks>
+         </message>
+        
+    </steps>
+</trail>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0104">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="uhw-sB-5ZR">Completing the Machine</title>
+                    <text id="Bdc-sI-Qbr">You’ve come a long way, coder! Now it’s time for you to complete the machine.</text>
+                </block>
+                 <block type = "image" source="page4-CompletingTheMachine.pdf" height="0.65">
+                     <description id="CGR-wQ-ATx">A diagram that depicts an input and output process.</description>
+                </block>
+                <block type="text">
+                   <text id="v1Q-RP-nif">Experiment with the code to make new parts. Use the skills you’ve learned, or try a coding challenge. Good luck!</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="wtr-WT-ZL9">Next</text>
+                    </button>
+                </block>
+        </blocks>
+    </step>
+     
+
+    
+    
+    <step type="code" name="nestedLoops">
+        <assessment type="programmatic" badge="true"/>
+      <blocks>
+          <block type="title" subtype="badge">
+              <title id="akY-jk-hrQ">Nesting Loops</title>
+              <text id="XWK-pV-qz1">If you’re feeling adventurous, you could try putting one loop inside another, a process known as <a href="glossary://nest">nesting</a>.</text>
+          </block>
+            <block type="carrot" subtype="code"/>
+            <block type="text">
+                  <text id="4qy-FN-uHq"><b>Step 1:</b>
+                  Add a second <a href="glossary://array">array</a>. An example could be:</text>
+              </block>
+            <block type="code"><key>let</key> colors = [Light.red, Light.green, Light.blue]
+            </block>
+            <block type="text">
+                  <text id="391-Uf-BtX"><b>Step 2:</b>
+                  Inside of your first <a href="glossary://for%20loop">for loop</a>, place a second for loop that loops through all the colors.</text>
+              </block>
+            <block type="code"><key>for</key> color <key>in</key> colors {
+                setItemA(.cloth)
+                setItemB(item)
+                switchLightOn(color)
+                forgeItems()
+            }</block>
+            
+              <block type="carrot" subtype="tryit"/>
+              <block type="text">
+                  <text id="BdK-uR-TY8">Run your code to try it out.</text>
+              </block>
+      </blocks>
+   </step>
+    
+    <message name="nestedLoops-hint2" sender="hopper">
+        <blocks>
+            <block type="text">
+                <text id="rdd-Jw-9X9">Once you’ve made an array of colors, you can create a <a href="glossary://nest">nested</a> loop to forge many items and many colors at the same time. Try something like this:</text>
+            </block>
+            <block type="code"><key>for</key> item <key>in</key> allItems {
+                <key>for</key> color <key>in</key> colors {
+                    setItemA(.cloth)
+                    setItemB(item)
+                    switchLightOn(color)
+                    forgeItems()
+                }
+            }
+            </block>
+            </blocks>
+        </message>
+    
+    <message name="nestedLoops-hint1" sender="hopper">
+        <blocks>
+            <block type="text">
+                <text id="eew-ascy-a3d">First, add an array of colors so that you can loop through it.</text>
+            </block>
+            <block type="code"><key>let</key> colors = [Light.red, Light.green, Light.blue]
+            </block>
+            </blocks>
+    </message>
+    
+    <message name="nestedLoops-hint3" sender="hopper">
+        <blocks>
+            <block type="text">
+                <text id="znse-hsla-iiwl">Great work creating nested loops! Now use those loops to forge the final products for all six of the machine’s body parts. Good luck!</text>
+            </block>
+        </blocks>
+    </message>
+    
+    
+    <message name="nestedLoops-success" sender="byte">
+        <blocks>
+            <block type="text">
+              <text id="S9M-rt-SUq"><b>Brilliant!</b></text>
+            </block>
+            <block type="text">
+              <text id="GQQ-CF-6zq">The machine is complete!</text>
+            </block>
+            <block type="text">
+              <text id="ps5-LJ-eEi">You really did it — you used your coding skills to create missing parts for the machine. You should celebrate, you’ve done something incredible!</text>
+            </block>
+            <block type="text">
+                <text id="dLE-VS-5Zt">Now you can try experimenting with the code to create the remaining parts for the machine. There are 24 in total. When you’re done dancing, continue learning in some other great playgrounds!</text>
+            </block>
+            <block type="buttons" alignment="trailing">
+                <button href="@next" symbol="arrow.right.circle.fill">
+                    <text id="43E-nG-JKI">Next</text>
+                </button>
+            </block>
+        </blocks>
+    </message>
+    </steps>
+</trail>

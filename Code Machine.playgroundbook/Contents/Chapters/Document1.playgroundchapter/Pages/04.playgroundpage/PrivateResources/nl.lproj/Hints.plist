@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Elke keer dat de machine draait, worden er drie onderdelen geproduceerd. Eén onderdeel per kleur in de [array](glossary://array) `colors`.
+
+Voor elke kleur in de array voegt de machine dezelfde twee onderdelen in en wordt het lampje met de betreffende kleur ingeschakeld. Op deze manier worden dezelfde twee onderdelen in de lus gecombineerd met elke lichtkleur!
+
+(colors = kleuren)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Aan jou de taak om de onderdelen 'seed' en 'dirt' met elkaar te combineren terwijl je lampjes met verschillende kleuren gebruikt om iets nieuws voor de machine te produceren.
+
+- callout(Voorbeeld):
+    ```
+    for color in colors {
+        setItemA(.seed)
+        setItemB(.dirt)
+        switchLightOn(color)
+        forgeItems()
+    }
+    ```
+
+(seed = zaadje, dirt = aarde, color = kleur, colors = kleuren, setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, switchLightOn = schakel lampje in, forgeItems = voeg onderdelen samen)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>
